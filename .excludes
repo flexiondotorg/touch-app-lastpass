@@ -1,4 +1,5 @@
 Makefile
+deploytophone.sh
 *.tmp
 .bzr
 .git
