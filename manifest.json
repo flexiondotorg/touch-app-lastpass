@@ -2,14 +2,14 @@
     "title": "LastPass",
     "description": "LastPass mobile WebApp",
     "name": "lastpass-mobile.flexiondotorg",
-    "version": "0.4"
+    "version": "0.4",
     "maintainer": "Martin Wimpress <code@flexion.org>",    
     "framework": "ubuntu-sdk-15.04",    
     "architecture": "all",
     "hooks": {
         "lastpass-mobile": {
             "apparmor": "app.json",
-            "desktop": "app.desktop",
+            "desktop": "app.desktop"
         }
     }
 }
