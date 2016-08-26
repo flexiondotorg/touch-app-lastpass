@@ -1,9 +1,10 @@
 [Desktop Entry]
 Name=LastPass mobile
-Comment=webapp for LastPass mobile
+Comment=LastPass mobile WebApp
 Type=Application
-Icon=LastPass-Mobile.png
+Icon=icon.png
 Exec=qmlscene %u qml/Main.qml
 Terminal=false
 X-Ubuntu-Touch=true
-
+X-Ubuntu-Splash-Image=splash.png
+X-Ubuntu-Splash-Color=#F6F6F6
