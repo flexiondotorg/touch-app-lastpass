@@ -6,5 +6,6 @@ Icon=icon.png
 Exec=qmlscene %u qml/Main.qml
 Terminal=false
 X-Ubuntu-Touch=true
-X-Ubuntu-Splash-Image=splash.png
 X-Ubuntu-Splash-Color=#F6F6F6
+X-Ubuntu-Splash-Title=LastPass
+X-Ubuntu-Splash-Image=splash.png
