@@ -8,7 +8,13 @@ This is a new approach using an alternate webapp container that
 does not use a toolbar at the top but instead provides a bottom
 menu with navigation objects. 
 
-== Building ==
+## TO DO
+
+  * Add additional radial navigation for switching between Mobile and Non-Mobile mode.
+    * No-Mobile - https://lastpass.com/?nomobile&ac=1&lpnorefresh=1
+    * Mobile - https://lastpass.com/mobile/
+
+## Building
 
 Edit the value of `applicationName` at the top of `qml/Main.qml` to match
 your application name to work around <https://launchpad.net/bugs/1435778>
@@ -29,7 +35,7 @@ Now run:
 
 This will create a `.click` package with you webapp.
 
-== Installing ==
+## Installing
 
 Push the click to your device via adb, then:
 
@@ -38,6 +44,6 @@ Push the click to your device via adb, then:
 You will see a bunch of progress bars ... once they are done,
 pull down the app scope to refresh it and find your new app in there.
 
-== Publishing == 
+## Publishing
 
 Publish the generated click package at https://myapps.developer.ubuntu.com/dev/click-apps/
