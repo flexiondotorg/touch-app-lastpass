@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LastPass mobile
+Comment=webapp for LastPass mobile
+Type=Application
+Icon=LastPass-Mobile.png
+Exec=qmlscene %u qml/Main.qml
+Terminal=false
+X-Ubuntu-Touch=true
+
