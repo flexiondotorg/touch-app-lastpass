@@ -14,6 +14,22 @@ menu with navigation objects.
     * No-Mobile - https://lastpass.com/?nomobile&ac=1&lpnorefresh=1
     * Mobile - https://lastpass.com/mobile/
 
+## Changes
+
+### 1.1
+
+  * Removed unused assets.
+
+### 1.0
+
+  * Added a splash screen.
+  * Updated framework to 15.04.
+  * Removed unused policy groups.
+
+### 0.3
+
+  * Initial release.
+
 ## Building
 
 Edit the value of `applicationName` at the top of `qml/Main.qml` to match
