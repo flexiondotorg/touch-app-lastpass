@@ -138,8 +138,24 @@ MainView {
                     onTriggered: {
                         webview.goForward()
                     }
-                   text: qsTr("Forward")
-                 },
+                    text: qsTr("Forward")
+                },
+                RadialAction {
+                    id: desktop
+                    iconName: "computer-laptop-symbolic"
+                    onTriggered: {
+                        webview.url = 'https://lastpass.com/?nomobile&ac=1&lpnorefresh=1'
+                    }
+                    text: qsTr("Desktop")
+                },
+                RadialAction {
+                    id: mobile
+                    iconName: "phone-smartphone-symbolic"
+                    onTriggered: {
+                        webview.url = 'https://lastpass.com/mobile/'
+                    }
+                    text: qsTr("Mobile")
+                },
                 RadialAction {
                     id: back
                     enabled: webview.canGoBack
