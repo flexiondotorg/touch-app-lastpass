@@ -10,11 +10,14 @@ menu with navigation objects.
 
 ## TO DO
 
-  * Add additional radial navigation for switching between Mobile and Non-Mobile mode.
-    * No-Mobile - https://lastpass.com/?nomobile&ac=1&lpnorefresh=1
-    * Mobile - https://lastpass.com/mobile/
+  * Can bookmarklets be made to work?
 
 ## Changes
+
+### 1.2
+
+  * Added radial navigation for switching between Mobile and Non-Mobile mode.
+  * Update framework components.
 
 ### 1.1
 
