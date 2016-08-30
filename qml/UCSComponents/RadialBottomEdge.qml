@@ -1,7 +1,7 @@
-import QtQuick 2.4
+import QtQuick 2.0
 import QtFeedback 5.0
-import Ubuntu.Components 1.3
-import QtQuick.Window 2.1
+import Ubuntu.Components 1.1
+import QtGraphicalEffects 1.0
 
 Item {
     id: bottomEdge
